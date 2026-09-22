@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude_plugin_mymarket",
+  "description": "Bundle some helpful plugins",
+  "owner": {
+    "name": "pbunting",
+    "email": "pjbunting@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "my-first-plugin",
+      "source": "./plugins/my-first-plugin",
+      "description": "My first Claude Code plugin",
+      "author": {
+        "name": "pbunting"
+      }
+    }
+  ]
+}
+
