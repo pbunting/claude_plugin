@@ -1,0 +1,21 @@
+{
+  "name": "my-first-plugin",
+  "description": "A greeting plugin to learn the basics",
+  "version": "1.0.0",
+  "author": {
+    "name": "Your Name"
+  },
+  "skills": "./skills/",
+  "userConfig": {
+    "MY_FORMAT": {
+      "type": "string",
+      "title": "Preferred output format",
+      "description": "The name of the standard format that output should be created in.",
+      "sensitive": false,
+      "required": true,
+      "default": "XML",
+      "options": ["XML", "JSON", "plain", "text", "YAML", "yml" ]
+    }
+  }
+}
+
